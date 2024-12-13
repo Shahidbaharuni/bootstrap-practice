@@ -1,0 +1,259 @@
+.main-btn {
+    background-color: #2639ED !important;
+    color: white !important;
+}
+
+.circle {
+    height: 129px;
+    width: 129px;
+    background-color: #DAE9FF;
+    z-index: -10;
+}
+
+.one-radius {
+    height: 178px;
+    width: 178px;
+    background-color: #FFF5DB;
+    border-end-end-radius: 89px;
+    position: absolute;
+    bottom: 0px;
+    right: -10px;
+    z-index: -1;
+}
+
+.busi-box {
+    width: 308px;
+    height: 379px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px #F2F2F2;
+    transition: all 0.6s ease;
+
+}
+
+.busi-box:hover {
+    transform: scale(1.1);
+
+
+}
+
+.c {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 65px;
+    overflow: hidden;
+    overflow-y: auto;
+
+}
+
+.card-home {
+    display: flex;
+    position: absolute;
+    left: 0;
+    animation: scroll 10s linear 1s infinite;
+}
+
+.card-child {
+    display: block;
+    color: white;
+    margin: 5px;
+}
+
+@keyframes scroll {
+    100% {
+        left: -360px;
+    }
+
+    /* top is the number of spans (in this case 8) multiplied by span height (45px as described above)*/
+}
+
+
+
+
+.h1 {
+    font-size: 24px !important;
+}
+
+.icon-box {
+    width: 121px;
+    height: 121px;
+    background-color: aliceblue
+}
+
+.icon-box-2 {
+    width: 121px;
+    height: 121px;
+    background-color: #FFF2F8;
+}
+
+.icon-box-3 {
+    width: 121px;
+    height: 121px;
+    background-color: #FFF7E3;
+}
+
+.icon-box-4 {
+    width: 121px;
+    height: 121px;
+    background-color: #DEFFEE;
+}
+
+.main-3 {
+    margin-top: 20px;
+}
+
+.main-3-back {
+    background-color: #F4F9FF;
+    width: 120%;
+    height: 77%;
+    position: absolute;
+    z-index: -1;
+    top: 111px;
+    left: 0;
+    border-top-left-radius: 150px;
+
+}
+
+.video-btn {
+    background-color: aliceblue;
+    border-radius: 60px;
+}
+
+.detail-one-redius {
+    width: 178px;
+    height: 178px;
+    border-bottom-right-radius: 100px;
+    background-color: #EFF1FF;
+    position: absolute;
+    z-index: -1;
+}
+
+.doted {
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.dot {
+    height: 16px;
+    width: 16px;
+    background-color: #2639ED;
+    border-radius: 8px;
+}
+
+.dots {
+    height: 16px;
+    width: 16px;
+    background-color: #E7F0FC;
+    border-radius: 8px;
+}
+
+.E-87 {
+    bottom: 90px;
+    left: 25px;
+    z-index: -1;
+}
+
+.review-img-circle {
+    width: 184px;
+    height: 184px;
+    background-color: #FFF5DB;
+    border-radius: 92px;
+    position: absolute;
+    bottom: 70px;
+    z-index: -1;
+}
+
+.subscride-bac {
+    height: 292px;
+    background-color: #F4F9FF;
+    border-radius: 75px;
+}
+
+.contact-bac {
+    height: 292px;
+    background-color: #2639ED;
+    border-radius: 125px 75px 75px 190px;
+
+}
+
+.contact-now {
+    width: 479px;
+    height: 80px;
+    border-radius: 60px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    z-index: 1;
+    position: absolute;
+    left: -101px;
+    top: 100px;
+    box-shadow: 0px 0px 10px -7px;
+}
+
+.contact-btn {
+    background-color: #2639ED !important;
+    color: #DAE9FF !important;
+}
+
+.my--5 {
+    margin: 10px 0;
+}
+
+.main-container-6 {
+    margin-top: 100px;
+}
+
+.nav-bar {
+    scroll-margin-top: 1000px
+}
+
+.abc::-webkit-scrollbar {
+    display: none;
+}
+
+.review-img {
+    width: 389px;
+    height: 389px;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    object-fit: cover;
+}
+
+.carousel-indicators-li {
+    border-radius: 100% !important;
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #2639ED !important;
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 393px) {
+    .E-87 {
+        bottom: 60px;
+        left: 0px;
+
+    }
+
+    .review-img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* @media only screen and (max-width: 766px) {
+    .contact-now {
+        width: 100%;
+        position: static;
+    }
+} */

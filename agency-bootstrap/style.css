@@ -1,0 +1,64 @@
+.nav-logo {
+    font-size: 50px !important;
+    color: #404b9a !important;
+}
+
+.active {
+    color: #183c56 !important;
+}
+
+.main {
+    background-color: #edf7fc;
+}
+
+.main-title {
+    font-size: 65px;
+    color: #183c56;
+}
+
+.main-para {
+
+    color: #183c56;
+}
+
+.main-btn {
+    background-color: #404b9a !important;
+    color: white !important;
+}
+
+.spotify-logo {
+    filter: invert(50%);
+    width: 200px;
+}
+
+.main-2-logos {
+    width: 150px;
+}
+
+.main-2-title {
+    color: #183c56;
+}
+
+.card-icon {
+    width: 50px;
+}
+
+.card-box {
+    width: 315px;
+    height: 200px;
+    box-shadow: 20px 20px 20px #f1f1f1;
+
+}
+
+.main-3-btn {
+    background-color: #404b9a !important;
+    color: white !important;
+}
+
+.blog-icon {
+    width: 10px;
+}
+
+.blog-img {
+    width: 250px;
+}

@@ -1,0 +1,242 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.language-dropdown {
+    opacity: 0.55;
+
+}
+
+body {
+    background-color: black !important;
+    color: white !important;
+}
+
+.bg-dark-opacity {
+    background-color: black !important;
+    color: white !important;
+}
+
+
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-image: url('./assets/bac.jpg');
+}
+
+.title {
+    font-size: 50px;
+}
+
+.get-email {
+    /* width: 300px !important; */
+    padding: 20px !important;
+    color: white !important;
+    background: transparent !important;
+}
+
+.get-btn {
+    width: 200px;
+    height: 60px;
+}
+
+.overlay-black {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.get-email::placeholder {
+    color: aliceblue !important;
+}
+
+.main-2-h1 {
+    font-size: 50px !important;
+}
+
+.main-2-h4 {
+    font-size: 25px !important;
+    font-weight: 200 !important;
+}
+
+.main-2-tv {
+    position: absolute;
+    top: 95px;
+    left: 85px;
+    z-index: -1;
+}
+
+.main-2 {
+    border-top: 7px solid rgb(70, 69, 69);
+}
+
+.main-3-h1 {
+    font-size: 50px !important;
+}
+
+.main-3-h4 {
+    font-size: 25px !important;
+    font-weight: 200 !important;
+}
+
+.main-3 {
+    border-top: 7px solid rgb(70, 69, 69);
+}
+
+.boxshot {
+    position: absolute !important;
+    left: 150px;
+    bottom: 10px;
+    width: 355px;
+}
+
+.my-btn {
+    height: 60px;
+    width: 300px;
+}
+
+.main-4-h1 {
+    font-size: 50px !important;
+}
+
+.main-4-h4 {
+    font-size: 25px !important;
+    font-weight: 200 !important;
+}
+
+.main-4-tv {
+    position: absolute;
+    top: 43px;
+    left: 110px;
+    z-index: -1;
+    width: 64%;
+}
+
+.main-4 {
+    border-top: 7px solid rgb(70, 69, 69);
+}
+
+.questions {
+    font-size: 60px;
+    margin: 50px 0;
+}
+
+.summary-paragraph {
+    font-size: 34px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-2-tv {
+        width: 340px;
+        top: 73px;
+        left: 63px;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .main-2-tv {
+        width: 491px;
+        top: 87px;
+        left: 85px;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .main-2-tv {
+        width: 374px;
+        top: 81px;
+        left: 70px;
+    }
+}
+
+@media only screen and (max-width: 406px) {
+    .main-2-tv {
+        width: 305px;
+        top: 70px;
+        left: 61px;
+    }
+}
+
+@media only screen and (max-width: 1390px) {
+    .boxshot {
+        left: 120px;
+        bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .boxshot-text {
+        font-size: 15px;
+
+    }
+
+    .boxshot {
+        width: 260px;
+        left: 111px;
+        bottom: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+    .boxshot-text {
+        font-size: 20px;
+
+    }
+
+    .boxshot {
+        width: 364px;
+        left: 179px;
+        bottom: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 490px) {
+    .boxshot {
+        width: 245px;
+        left: 122px;
+    }
+
+    .boxshot-text {
+        white-space: nowrap;
+
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .boxshot-text {
+        white-space: nowrap;
+        font-size: 16px;
+
+    }
+
+    .boxshot {
+        width: 219px;
+        left: 86px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-4-tv {
+        top: 31px;
+        left: 84px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-4-tv {
+        top: 47px;
+        left: 117px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .main-4-tv {
+        top: 29px;
+        left: 60px;
+    }
+}
